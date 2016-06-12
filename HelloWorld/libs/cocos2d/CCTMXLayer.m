@@ -44,7 +44,7 @@
 -(void) addQuadFromSprite:(CCSprite*)sprite quadIndex:(NSUInteger)index;
 @end
 
-/* IMPORTANT XXX IMPORTNAT:
+/* IMPORTANT XXX IMPORTANT:
  * These 2 methods can't be part of CCTMXLayer since they call [super add...], and CCSpriteBatchNode#add SHALL not be called
  */
 @implementation CCSpriteBatchNode (TMXTiledMapExtension)

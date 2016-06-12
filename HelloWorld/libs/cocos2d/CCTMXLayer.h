@@ -53,7 +53,7 @@
     glAlphaFunc( GL_GREATER, value )
  
  "value" by default is 0, but you can change it from Tiled by adding the "cc_alpha_func" property to the layer.
- The value 0 should work for most cases, but if you have tiles that are semi-transparent, then you might want to use a differnt
+ The value 0 should work for most cases, but if you have tiles that are semi-transparent, then you might want to use a different
  value, like 0.5.
  
  For further information, please see the programming guide:
@@ -90,7 +90,7 @@
 @property (nonatomic,readwrite,retain) NSString *layerName;
 /** size of the layer in tiles */
 @property (nonatomic,readwrite) CGSize layerSize;
-/** size of the map's tile (could be differnt from the tile's size) */
+/** size of the map's tile (could be different from the tile's size) */
 @property (nonatomic,readwrite) CGSize mapTileSize;
 /** pointer to the map of tiles */
 @property (nonatomic,readwrite) uint32_t *tiles;

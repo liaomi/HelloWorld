@@ -101,17 +101,17 @@
 @end
 
 /** Ease Elastic In action.
- @warning This action doesn't use a bijective fucntion. Actions like Sequence might have an unexpected result when used with this action.
+ @warning This action doesn't use a bijective function. Actions like Sequence might have an unexpected result when used with this action.
  @since v0.8.2
  */
 @interface CCEaseElasticIn : CCEaseElastic <NSCopying> {} @end
 /** Ease Elastic Out action.
- @warning This action doesn't use a bijective fucntion. Actions like Sequence might have an unexpected result when used with this action.
+ @warning This action doesn't use a bijective function. Actions like Sequence might have an unexpected result when used with this action.
  @since v0.8.2
  */
 @interface CCEaseElasticOut : CCEaseElastic <NSCopying> {} @end
 /** Ease Elastic InOut action.
- @warning This action doesn't use a bijective fucntion. Actions like Sequence might have an unexpected result when used with this action.
+ @warning This action doesn't use a bijective function. Actions like Sequence might have an unexpected result when used with this action.
  @since v0.8.2
  */
 @interface CCEaseElasticInOut : CCEaseElastic <NSCopying> {} @end
@@ -122,37 +122,37 @@
 @interface CCEaseBounce : CCActionEase <NSCopying> {} @end
 
 /** CCEaseBounceIn action.
- @warning This action doesn't use a bijective fucntion. Actions like Sequence might have an unexpected result when used with this action.
+ @warning This action doesn't use a bijective function. Actions like Sequence might have an unexpected result when used with this action.
  @since v0.8.2
 */
 @interface CCEaseBounceIn : CCEaseBounce <NSCopying> {} @end
 
 /** EaseBounceOut action.
- @warning This action doesn't use a bijective fucntion. Actions like Sequence might have an unexpected result when used with this action.
+ @warning This action doesn't use a bijective function. Actions like Sequence might have an unexpected result when used with this action.
  @since v0.8.2
  */
 @interface CCEaseBounceOut : CCEaseBounce <NSCopying> {} @end
 
 /** CCEaseBounceInOut action.
- @warning This action doesn't use a bijective fucntion. Actions like Sequence might have an unexpected result when used with this action.
+ @warning This action doesn't use a bijective function. Actions like Sequence might have an unexpected result when used with this action.
  @since v0.8.2
  */
 @interface CCEaseBounceInOut : CCEaseBounce <NSCopying> {} @end
 
 /** CCEaseBackIn action.
- @warning This action doesn't use a bijective fucntion. Actions like Sequence might have an unexpected result when used with this action.
+ @warning This action doesn't use a bijective function. Actions like Sequence might have an unexpected result when used with this action.
  @since v0.8.2
  */
 @interface CCEaseBackIn : CCActionEase <NSCopying> {} @end
 
 /** CCEaseBackOut action.
- @warning This action doesn't use a bijective fucntion. Actions like Sequence might have an unexpected result when used with this action.
+ @warning This action doesn't use a bijective function. Actions like Sequence might have an unexpected result when used with this action.
  @since v0.8.2
  */
 @interface CCEaseBackOut : CCActionEase <NSCopying> {} @end
 
 /** CCEaseBackInOut action.
- @warning This action doesn't use a bijective fucntion. Actions like Sequence might have an unexpected result when used with this action.
+ @warning This action doesn't use a bijective function. Actions like Sequence might have an unexpected result when used with this action.
  @since v0.8.2
  */
 @interface CCEaseBackInOut : CCActionEase <NSCopying> {} @end

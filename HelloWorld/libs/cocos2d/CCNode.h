@@ -264,7 +264,7 @@ enum {
 -(id) init;
 
 
-// scene managment
+// scene management
 
 /** callback that is called every time the CCNode enters the 'stage'.
  If the CCNode enters the 'stage' with a transition, this callback is called when the transition starts.

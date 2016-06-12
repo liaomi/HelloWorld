@@ -98,7 +98,7 @@ const char kProgressTextureCoords = 0x1e;
 		[sprite_ release]; 
 		sprite_ = [newSprite retain];
 		
-		//	Everytime we set a new sprite, we free the current vertex data
+		//	Every Time we set a new sprite, we free the current vertex data
 		if(vertexData_){
 			free(vertexData_);
 			vertexData_ = NULL;
