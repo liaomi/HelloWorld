@@ -165,7 +165,7 @@ static CCTexture2DPixelFormat defaultAlphaPixelFormat_ = kCCTexture2DPixelFormat
 
 - (void*) keepData:(void*)data length:(NSUInteger)length
 {
-	//The texture data mustn't be saved becuase it isn't a mutable texture.
+	//The texture data mustn't be saved because it isn't a mutable texture.
 	return data;
 }
 

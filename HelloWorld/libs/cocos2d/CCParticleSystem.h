@@ -280,7 +280,7 @@ typedef void (*CC_UPDATE_PARTICLE_IMP)(id, SEL, tCCParticle*, CGPoint);
 	// blend function
 	ccBlendFunc	blendFunc_;
 
-	// movment type: free or grouped
+	// movement type: free or grouped
 	tCCPositionType	positionType_;
 
 	// Whether or not the node will be auto-removed when there are not particles

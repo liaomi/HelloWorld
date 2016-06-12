@@ -85,7 +85,7 @@
     src=GL_ONE dst= GL_ONE_MINUS_SRC_ALPHA
  else
 	src=GL_SRC_ALPHA dst= GL_ONE_MINUS_SRC_ALPHA
- But you can change the blending funtion at any time.
+ But you can change the blending function at any time.
  @since v0.8.0
  */
 @protocol CCTextureProtocol <CCBlendProtocol>

@@ -124,7 +124,7 @@ static inline void ccArrayShrink(ccArray *arr)
 	}
 } 
 
-/** Returns index of first occurence of object, NSNotFound if object not found. */
+/** Returns index of first occurrence of object, NSNotFound if object not found. */
 static inline NSUInteger ccArrayGetIndexOfObject(ccArray *arr, id object)
 {
 	for( NSUInteger i = 0; i < arr->num; i++)
@@ -322,7 +322,7 @@ static inline void ccCArrayEnsureExtraCapacity(ccCArray *arr, NSUInteger extra)
 	ccArrayEnsureExtraCapacity(arr,extra);
 }
 
-/** Returns index of first occurence of value, NSNotFound if value not found. */
+/** Returns index of first occurrence of value, NSNotFound if value not found. */
 static inline NSUInteger ccCArrayGetIndexOfValue(ccCArray *arr, void* value)
 {
 	for( NSUInteger i = 0; i < arr->num; i++)
